@@ -19,7 +19,7 @@ def install_requirements():
     for requirement in requirements:
         subprocess.run(['pip', 'install', requirement])
 
-    print("Requirements installed successfully. Type ./run.sh to run Script ")
+    print("Requirements installed successfully. Type ./run to run Script ")
 
 if __name__ == "__main__":
     install_requirements()
