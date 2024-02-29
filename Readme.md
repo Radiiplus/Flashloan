@@ -16,7 +16,7 @@ Flash loans operate within the realm of decentralized finance (DeFi), enabling u
 ## Considerations:
 - When selecting a coin pair, list the newer token first and the stable one last (e.g., ADA/ETH).
 - Choose tokens from the ERC-20 chain on Etherscan.
-- Two modes are available: Safe Mode and Safe Mode Overdrive, with borrowing limits of $1000 and $10000, respectively.
+- Two modes are available: Safe Mode and Safe Mode Overdrive, with borrowing limits of $1000 and $10000, respectively (to avoid abuse of this tool).
 - Ensure a minimum balance of 0.034 ETH in Safe Mode and 0.14 ETH in Safe Mode Overdrive to cover gas costs.
 
 ## Gas Cost and Transaction Approval:
