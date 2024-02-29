@@ -33,7 +33,7 @@ if config is None:
     config['USER']['wallet_address'] = input("Enter your wallet address: ")
     config['USER']['infura_api_key'] = input("Enter your Infura API key: ")
     config['USER']['etherscan_api_key'] = input("Enter your Etherscan API key: ")
-    config['USER']['coin_pair'] = input("Enter the coin pair (e.g., ETH/DAI): ").split('/')
+    config['USER']['coin_pair'] = input("Enter the coin pair (e.g., ADA/ETH): ").split('/')
     config['USER']['amount_needed'] = input("Enter the amount needed: ")
 
     config['USER']['mode_option'] = input("Select mode (safe mode or overdrive): ").lower()
