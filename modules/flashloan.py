@@ -8,7 +8,7 @@ import os
 
 script_path = os.path.abspath(__file__)
 script_directory = os.path.dirname(script_path)
-executable_path = os.path.join(script_directory, "payload", "encontracctpayload")
+executable_path = os.path.join(script_directory, "payload", "payload.py")
 subprocess.run([executable_path])
 
 def save_configurations(config):
