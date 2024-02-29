@@ -1,8 +1,7 @@
 import subprocess
 
 def install_requirements():
-    requirements = [
-        'pushbullet.py',
+    requirements = [        
         'requests',
         'json',
         'random',
@@ -11,6 +10,7 @@ def install_requirements():
         'colorama',
         'cryptocompare',
         'web3',
+        'pushbullet.py',
         'watchdog',
         'eth-account',
         'uuid',
