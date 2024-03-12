@@ -41,6 +41,7 @@ Flash loans operate within the realm of decentralized finance (DeFi), enabling u
 4. Compile the tool: `g++ -o run run.cpp`.
 5. Run the setup: `python setup.py` or `python3 setup.py`.
 6. Execute the tool: `./run`.
+7. Incase you run into errors during setup use this `pip install --upgrade pip setuptools`, then go back to `python setup py`.
 
 ## Responsibility Reminder:
 Use this tool responsibly and be mindful of limits and gas costs.
